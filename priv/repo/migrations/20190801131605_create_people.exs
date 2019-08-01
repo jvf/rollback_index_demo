@@ -7,7 +7,5 @@ defmodule Friends.Repo.Migrations.CreatePeople do
       add :last_name, :string
       add :age, :integer
     end
-
-    create(index(:people, [:first_name]))
   end
 end
